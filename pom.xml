@@ -63,7 +63,6 @@
             <value>listenReport.Reporter</value>
           </property>
           <suiteXmlFiles>
-            <suiteXmlFile>src/exec/suite.xml</suiteXmlFile>
             <suiteXmlFile>src/exec/icagilitest.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>

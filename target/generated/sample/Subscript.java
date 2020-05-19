@@ -31,7 +31,7 @@ public class Subscript extends ActionTestScript{
 
 	/**
 	* Test Name : <b>sample.Subscript</b>
-	* Generated at : <b>19 mai 2020 à 15:32:20</b>
+	* Generated at : <b>19 mai 2020 à 17:25:37</b>
 	*/
 
 	@Override
@@ -58,7 +58,7 @@ public class Subscript extends ActionTestScript{
 
 		exec(0,new ActionChannelStart(this, "newChannel", clv(prm(0, "chrome")), new String[]{}));
 		exec(2,new ActionGotoUrl(this, true, clv("http://www.agilitest.com/fichiers/test.html")));
-		exec(3,new ActionMouseKey(this, true, 0, 0, el(0, "INPUT", prp(false, "type", clv("button")), prp(false, "value", clv("7"))), ms(Mouse.CLICK)));
+		exec(3,new ActionMouseKey(this, true, 0, 0, el(0, "INPUT", prp(false, "value", clv("7")), prp(false, "type", clv("button"))), ms(Mouse.CLICK)));
 		exec(4,new ActionMouseKey(this, true, 0, 0, el(0, "INPUT", prp(false, "value", clv("x")), prp(false, "type", clv("button"))), ms(Mouse.CLICK)));
 		exec(5,new ActionMouseKey(this, true, 0, 0, el(0, "INPUT", prp(false, "value", clv("8")), prp(false, "type", clv("button"))), ms(Mouse.CLICK)));
 		exec(6,new ActionMouseKey(this, true, 0, 0, el(0, "INPUT", prp(false, "value", clv("=")), prp(false, "type", clv("button"))), ms(Mouse.CLICK)));
