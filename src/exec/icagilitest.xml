@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="icagilitest" verbose="10">
+  <parameter name="ats.log.level" value="all"/>
+  <test name="testMain" preserve-order="true">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="sample.Main"/>
+    </classes>
+  </test>
+</suite>
