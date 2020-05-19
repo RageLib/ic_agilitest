@@ -1,0 +1,9 @@
+<atsProject>
+  <domain>com.functional</domain>
+  <name>ats-icAgilitest</name>
+  <version>0.0.1</version>
+  <description>ATS project created with Agilitest Editor</description>
+  <useMaven>true</useMaven>
+  <groups/>
+  <environment/>
+</atsProject>
