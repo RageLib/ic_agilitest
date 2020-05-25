@@ -30,7 +30,7 @@ public class MyFirstScript extends ActionTestScript{
 
 	/**
 	* Test Name : <b>MyFirstScript</b>
-	* Generated at : <b>25 mai 2020 à 15:25:11</b>
+	* Generated at : <b>25 mai 2020 à 17:47:55</b>
 	*/
 
 	public MyFirstScript(){super();}
