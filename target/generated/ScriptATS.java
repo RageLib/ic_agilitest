@@ -25,15 +25,15 @@ import com.ats.generator.variables.Variable;
 import com.ats.generator.variables.ConditionalValue;
 import com.ats.tools.Operators;
 
-public class MyFirstScript extends ActionTestScript{
+public class ScriptATS extends ActionTestScript{
 
 	/**
-	* Test Name : <b>MyFirstScript</b>
+	* Test Name : <b>ScriptATS</b>
 	* Generated at : <b>19 juin 2020 à 14:49:09</b>
 	*/
 
-	public MyFirstScript(){super();}
-	public MyFirstScript(com.ats.executor.ActionTestScript sc){super(sc);}
+	public ScriptATS(){super();}
+	public ScriptATS(com.ats.executor.ActionTestScript sc){super(sc);}
 
 	@Override
 	public final String gav(){return "com.functional.ats-icAgilitest(0.0.1)";}
@@ -42,8 +42,8 @@ public class MyFirstScript extends ActionTestScript{
 	protected ScriptHeader getHeader(){
 		return new ScriptHeader(
 			"",
-			"agilitest",
-			"Very simple ATS script",
+			"LAPTOP-LT8QHS42\\Agilitest",
+			"",
 			"",
 			"");
 	}
@@ -53,13 +53,12 @@ public class MyFirstScript extends ActionTestScript{
 
 		//   ---< Variables >---   //
 
+		Variable returnVar = var("returnVar");
 
 		//   ---< Actions >---   //
 
-		exec(0,new ActionChannelStart(this, "newChannel", clv(env("browser")), new String[]{}));
-		exec(1,new ActionGotoUrl(this, true, clv("www.google.com")));
-		exec(2,new ActionText(this, true, 0, 0, el(0, "INPUT", prp(false, "name", clv("q"))), clv("agilitest$key(ENTER)")));
-		exec(3,new ActionMouseKey(this, true, 0, 0, el(el(0, "A", prp(false, "href", clv("https://www.agilitest.com/"))), 0, "CITE", prp(false, "text", clv("www.agilitest.com"))), ms(Mouse.CLICK)));
-		exec(4,new ActionChannelClose(this, "newChannel", false));
+		exec(0,new ActionChannelStart(this, "newChannel", clv("chrome"), new String[]{}));
+		exec(1,new ActionGotoUrl(this, true, clv("http://google.Fr")));
+		exec(2,new ActionCallscript(this, clv("CodeJava"), prm(clv("L")), returnVar));
 	}
 }

@@ -1,0 +1,13 @@
+[ats-header]
+
+author -> LAPTOP-LT8QHS42\Agilitest
+created -> 2020-05-26 at 10:38:34
+
+[ats-variables]
+
+
+[ats-actions]
+
+channel-start -> newChannel -> chrome
+goto-url -> http://google.Fr
+subscript -> CodeJava [L] => returnVar
