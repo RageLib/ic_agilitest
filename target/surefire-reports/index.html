@@ -142,6 +142,8 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;icagilitest&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;xml.report&quot; value=&quot;true&quot;/&gt;
+  &lt;parameter name=&quot;visual.report&quot; value=&quot;1&quot;/&gt;
   &lt;parameter name=&quot;ats.log.level&quot; value=&quot;all&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;testMain&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
@@ -190,12 +192,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testMain')
 data.setCell(0, 2, 'sample.Main')
-data.setCell(0, 3, 20772);
+data.setCell(0, 3, 24067);
 window.suiteTableData['icagilitest']= { tableData: data, tableDiv: 'times-div-icagilitest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
               <div id="times-div-icagilitest">
               </div> <!-- times-div-icagilitest -->
             </div> <!-- times-div -->
@@ -233,24 +235,24 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
-                <span class="method-name">beforeAtsTest(org.testng.TestRunner@7c2312fa)</span>
-                <span class="method-start">24 ms</span>
+                <span class="method-name">beforeAtsTest(org.testng.TestRunner@185f7840)</span>
+                <span class="method-start">27 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testMain</span>
-                <span class="method-start">91 ms</span>
+                <span class="method-start">120 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">cleanup</span>
-                <span class="method-start">20865 ms</span>
+                <span class="method-start">24193 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">20897 ms</span>
+                <span class="method-start">24810 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">testFinished</span>
-                <span class="method-start">20899 ms</span>
+                <span class="method-start">24813 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
