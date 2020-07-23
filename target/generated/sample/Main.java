@@ -30,7 +30,7 @@ public class Main extends ActionTestScript{
 
 	/**
 	* Test Name : <b>sample.Main</b>
-	* Generated at : <b>21 juil. 2020 à 11:10:12</b>
+	* Generated at : <b>23 juil. 2020 à 10:55:27</b>
 	*/
 
 	public Main(){super();}

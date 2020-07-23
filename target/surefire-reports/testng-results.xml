@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[- Starting script (MyFirstScript) -> {"suite":"icagilitest","xmlReport":true,"visualQuality":1,"parameters":[{"xml.report":"true"},{"ats.log.level":"all"},{"visual.report":"1"},{"browser":"chrome"}]}]]>
+    </line>
+    <line>
+      <![CDATA[- Script terminated -> {"name":"MyFirstScript","suite":"icagilitest","duration":21347,"passed":true,"actions":5}]]>
+    </line>
     <line>
       <![CDATA[- Starting script (sample.Main) -> {"suite":"icagilitest","xmlReport":true,"visualQuality":1,"parameters":[{"xml.report":"true"},{"ats.log.level":"all"},{"visual.report":"1"},{"browser":"chrome"}]}]]>
     </line>
@@ -8,23 +14,19 @@
       <![CDATA[- Subscript init (sample.Main:0) -> {"called":"sample.Subscript","iteration":"1/1","type":"loop","parameters":[{"p0":"chrome"}]}]]>
     </line>
     <line>
-      <![CDATA[- Script terminated -> {"name":"sample.Main","suite":"icagilitest","duration":24772,"passed":true,"actions":14}]]>
+      <![CDATA[- Script terminated -> {"name":"sample.Main","suite":"icagilitest","duration":22415,"passed":true,"actions":14}]]>
     </line>
   </reporter-output>
-  <suite started-at="2020-07-21T11:10:17 CEST" name="icagilitest" finished-at="2020-07-21T11:10:41 CEST" duration-ms="24798">
+  <suite started-at="2020-07-23T10:55:30 CEST" name="icagilitest" finished-at="2020-07-23T10:56:14 CEST" duration-ms="43783">
     <groups>
     </groups>
-    <test started-at="2020-07-21T11:10:17 CEST" name="testMain" finished-at="2020-07-21T11:10:41 CEST" duration-ms="24798">
+    <test started-at="2020-07-23T10:55:30 CEST" name="testMain" finished-at="2020-07-23T10:56:14 CEST" duration-ms="43783">
       <class name="sample.Main">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:sample.Main@1de5f259]" started-at="2020-07-21T11:10:17 CEST" name="beforeSuite" test-instance-name="sample.Main" finished-at="2020-07-21T11:10:17 CEST" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeAtsTest(org.testng.ITestContext)[pri:0, instance:sample.Main@1de5f259]" started-at="2020-07-21T11:10:17 CEST" name="beforeAtsTest" test-instance-name="sample.Main" finished-at="2020-07-21T11:10:17 CEST" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="beforeAtsTest(org.testng.ITestContext)[pri:0, instance:sample.Main@38145825]" started-at="2020-07-23T10:55:51 CEST" name="beforeAtsTest" test-instance-name="sample.Main" finished-at="2020-07-23T10:55:51 CEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@185f7840]]>
+                <![CDATA[org.testng.TestRunner@ad3324b]]>
               </value>
             </param>
           </params>
@@ -34,29 +36,64 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeAtsTest -->
-        <test-method signature="testMain()[pri:0, instance:sample.Main@1de5f259]" started-at="2020-07-21T11:10:17 CEST" name="testMain" test-instance-name="sample.Main" finished-at="2020-07-21T11:10:41 CEST" duration-ms="24067" status="PASS">
+        <test-method signature="testMain()[pri:0, instance:sample.Main@38145825]" started-at="2020-07-23T10:55:51 CEST" name="testMain" test-instance-name="sample.Main" finished-at="2020-07-23T10:56:13 CEST" duration-ms="22089" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[- Subscript init (sample.Main:0) -> {"called":"sample.Subscript","iteration":"1/1","type":"loop","parameters":[{"p0":"chrome"}]}]]>
             </line>
           </reporter-output>
         </test-method> <!-- testMain -->
-        <test-method is-config="true" signature="cleanup()[pri:0, instance:sample.Main@1de5f259]" started-at="2020-07-21T11:10:41 CEST" name="cleanup" test-instance-name="sample.Main" finished-at="2020-07-21T11:10:41 CEST" duration-ms="613" status="PASS">
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:sample.Main@38145825]" started-at="2020-07-23T10:56:13 CEST" name="cleanup" test-instance-name="sample.Main" finished-at="2020-07-23T10:56:14 CEST" duration-ms="323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:sample.Main@1de5f259]" started-at="2020-07-21T11:10:41 CEST" name="afterClass" test-instance-name="sample.Main" finished-at="2020-07-21T11:10:41 CEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:sample.Main@38145825]" started-at="2020-07-23T10:56:14 CEST" name="afterClass" test-instance-name="sample.Main" finished-at="2020-07-23T10:56:14 CEST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[- Script terminated -> {"name":"sample.Main","suite":"icagilitest","duration":24772,"passed":true,"actions":14}]]>
+              <![CDATA[- Script terminated -> {"name":"sample.Main","suite":"icagilitest","duration":22415,"passed":true,"actions":14}]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="testFinished()[pri:0, instance:sample.Main@1de5f259]" started-at="2020-07-21T11:10:41 CEST" name="testFinished" test-instance-name="sample.Main" finished-at="2020-07-21T11:10:41 CEST" duration-ms="0" status="PASS">
+      </class> <!-- sample.Main -->
+      <class name="MyFirstScript">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:MyFirstScript@5dafbe45]" started-at="2020-07-23T10:55:30 CEST" name="beforeSuite" test-instance-name="MyFirstScript" finished-at="2020-07-23T10:55:30 CEST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeAtsTest(org.testng.ITestContext)[pri:0, instance:MyFirstScript@5dafbe45]" started-at="2020-07-23T10:55:30 CEST" name="beforeAtsTest" test-instance-name="MyFirstScript" finished-at="2020-07-23T10:55:30 CEST" duration-ms="57" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ad3324b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[- Starting script (MyFirstScript) -> {"suite":"icagilitest","xmlReport":true,"visualQuality":1,"parameters":[{"xml.report":"true"},{"ats.log.level":"all"},{"visual.report":"1"},{"browser":"chrome"}]}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeAtsTest -->
+        <test-method signature="testMain()[pri:0, instance:MyFirstScript@5dafbe45]" started-at="2020-07-23T10:55:30 CEST" name="testMain" test-instance-name="MyFirstScript" finished-at="2020-07-23T10:55:51 CEST" duration-ms="20839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:MyFirstScript@5dafbe45]" started-at="2020-07-23T10:55:51 CEST" name="cleanup" test-instance-name="MyFirstScript" finished-at="2020-07-23T10:55:51 CEST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:MyFirstScript@5dafbe45]" started-at="2020-07-23T10:55:51 CEST" name="afterClass" test-instance-name="MyFirstScript" finished-at="2020-07-23T10:55:51 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[- Script terminated -> {"name":"MyFirstScript","suite":"icagilitest","duration":21347,"passed":true,"actions":5}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="testFinished()[pri:0, instance:MyFirstScript@5dafbe45]" started-at="2020-07-23T10:56:14 CEST" name="testFinished" test-instance-name="MyFirstScript" finished-at="2020-07-23T10:56:14 CEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFinished -->
-      </class> <!-- sample.Main -->
+      </class> <!-- MyFirstScript -->
     </test> <!-- testMain -->
   </suite> <!-- icagilitest -->
 </testng-results>
