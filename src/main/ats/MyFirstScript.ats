@@ -6,6 +6,7 @@ description -> Very simple ATS script
 
 [ats-variables]
 
+var -> date -> date [4m]
 
 [ats-actions]
 

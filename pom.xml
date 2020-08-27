@@ -63,7 +63,7 @@
             <value>listenReport.Reporter</value>
           </property>
           <suiteXmlFiles>
-            <suiteXmlFile>src/exec/icagilitest.xml</suiteXmlFile>
+            <suiteXmlFile>src/exec/suite.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
@@ -90,7 +90,7 @@
     <dependency>
       <groupId>com.actiontestscript</groupId>
       <artifactId>ats-automated-testing</artifactId>
-      <version>1.7.5</version>
+      <version>1.7.6</version>
     </dependency>
   </dependencies>
 </project>
