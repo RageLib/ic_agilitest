@@ -6,6 +6,7 @@
   <test name="testMain" preserve-order="true">
     <classes>
       <class name="MyFirstScript"/>
+      <class name="sample.Subscript"/>
     </classes>
   </test>
 </suite>
