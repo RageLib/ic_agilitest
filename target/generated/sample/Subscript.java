@@ -30,7 +30,7 @@ public class Subscript extends ActionTestScript{
 
 	/**
 	* Test Name : <b>sample.Subscript</b>
-	* Generated at : <b>15 sept. 2020 à 10:48:19</b>
+	* Generated at : <b>15 sept. 2020 à 14:54:56</b>
 	*/
 
 	public Subscript(){super();}
@@ -62,7 +62,7 @@ public class Subscript extends ActionTestScript{
 		exec(2,new ActionGotoUrl(this, true, clv("http://www.agilitest.com/fichiers/test.html")));
 		exec(3,new ActionMouseKey(this, true, 0, 0, el(0, "INPUT", prp(false, "value", clv("7")), prp(false, "type", clv("button"))), ms(Mouse.CLICK)));
 		exec(4,new ActionMouseKey(this, true, 0, 0, el(0, "INPUT", prp(false, "value", clv("x")), prp(false, "type", clv("button"))), ms(Mouse.CLICK)));
-		exec(5,new ActionMouseKey(this, true, 0, 0, el(0, "INPUT", prp(false, "type", clv("button")), prp(false, "value", clv("8"))), ms(Mouse.CLICK)));
+		exec(5,new ActionMouseKey(this, true, 0, 0, el(0, "INPUT", prp(false, "value", clv("8")), prp(false, "type", clv("button"))), ms(Mouse.CLICK)));
 		exec(6,new ActionMouseKey(this, true, 0, 0, el(0, "INPUT", prp(false, "value", clv("=")), prp(false, "type", clv("button"))), ms(Mouse.CLICK)));
 		exec(7,new ActionText(this, true, 0, 0, el(0, "INPUT", prp(false, "name", clv("fname"))), clv("Bill")));
 		exec(8,new ActionText(this, true, 0, 0, el(0, "INPUT", prp(false, "name", clv("lname"))), clv("Gates")));
