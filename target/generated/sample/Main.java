@@ -30,7 +30,7 @@ public class Main extends ActionTestScript{
 
 	/**
 	* Test Name : <b>sample.Main</b>
-	* Generated at : <b>15 sept. 2020 à 14:54:56</b>
+	* Generated at : <b>15 sept. 2020 à 17:21:40</b>
 	*/
 
 	public Main(){super();}
@@ -58,7 +58,6 @@ public class Main extends ActionTestScript{
 		//   ---< Actions >---   //
 
 		exec(0,new ActionCallscript(this, clv("sample.Subscript"), prm(clv("chrome"))));
-		exec(2,new ActionCallscript(this, clv("sample.Subscript"), prm(clv("msedge"))));
 		exec(4,new ActionCallscript(this, clv("sample.Subscript"), prm(clv("firefox"))));
 	}
 }

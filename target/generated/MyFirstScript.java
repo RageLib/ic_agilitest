@@ -30,7 +30,7 @@ public class MyFirstScript extends ActionTestScript{
 
 	/**
 	* Test Name : <b>MyFirstScript</b>
-	* Generated at : <b>15 sept. 2020 à 14:54:56</b>
+	* Generated at : <b>15 sept. 2020 à 17:21:40</b>
 	*/
 
 	public MyFirstScript(){super();}
@@ -59,9 +59,6 @@ public class MyFirstScript extends ActionTestScript{
 		//   ---< Actions >---   //
 
 		exec(0,new ActionChannelStart(this, "newChannel", clv("chrome"), new String[]{}));
-		exec(1,new ActionGotoUrl(this, true, clv("www.google.com")));
-		exec(2,new ActionText(this, true, 0, 0, el(0, "INPUT", prp(false, "name", clv("q"))), clv("agilitest$key(ENTER)")));
-		exec(3,new ActionMouseKey(this, true, 0, 0, el(el(0, "A", prp(false, "href", clv("https://www.agilitest.com/"))), 0, "CITE", prp(false, "text", clv("www.agilitest.com"))), ms(Mouse.CLICK)));
 		exec(4,new ActionChannelClose(this, "newChannel", false));
 	}
 }
