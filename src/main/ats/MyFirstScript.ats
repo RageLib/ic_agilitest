@@ -11,7 +11,7 @@ var -> date -> date [4m]
 [ats-actions]
 
 channel-start -> newChannel -> chrome
-goto-url -> www.google.com
-keyboard -> agilitest$key(ENTER) -> INPUT [name = q]
-click -> CITE [text = www.agilitest.com] -> A [href = https://www.agilitest.com/]
+//goto-url -> www.google.com
+//keyboard -> agilitest$key(ENTER) -> INPUT [name = q]
+//click -> CITE [text = www.agilitest.com] -> A [href = https://www.agilitest.com/]
 channel-close -> newChannel
