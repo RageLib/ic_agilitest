@@ -1,12 +1,15 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <name>com.functional.ats-icAgilitest</name>
+  <name>com.functional.icAgilitest</name>
   <groupId>com.functional</groupId>
-  <artifactId>ats-icAgilitest</artifactId>
+  <artifactId>icAgilitest</artifactId>
   <version>0.0.1</version>
   <packaging>jar</packaging>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <generate.project.domain>false</generate.project.domain>
+    <maven.compiler.target>10</maven.compiler.target>
+    <maven.compiler.source>10</maven.compiler.source>
   </properties>
   <build>
     <sourceDirectory>target/generated</sourceDirectory>
@@ -90,7 +93,7 @@
     <dependency>
       <groupId>com.actiontestscript</groupId>
       <artifactId>ats-automated-testing</artifactId>
-      <version>1.7.7</version>
+      <version>1.8.0</version>
     </dependency>
   </dependencies>
 </project>

@@ -3,7 +3,6 @@
   <parameter name="xml.report" value="true"/>
   <parameter name="ats.log.level" value="null"/>
   <test name="testMain" preserve-order="true">
-    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="MyFirstScript"/>
       <class name="sample.Main"/>
