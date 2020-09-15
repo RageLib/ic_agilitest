@@ -343,8 +343,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <!-- child element: action     -->
   <!-- ========================= -->
   <xsl:template match="action">
-  <button class="collapsible">Action : 
-            <xsl:value-of select="@type"/>   </button>
+  <button class="collapsible"><xsl:value-of select="@type"/></button>
             <div class="content">
   <TABLE class="results table table-bordered table-hover" style="background-color:#EBEBEB">
 	<THEAD>
