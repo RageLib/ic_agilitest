@@ -1,8 +1,0 @@
-# Created on 2020-07-22T14:22:23.892
-[SUREFIRE] std/in stream corrupted
-java.io.IOException: Command BYE_ACK unexpectedly read Void data with length 4.
-	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:130)
-	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
-	at java.base/java.lang.Thread.run(Thread.java:832)
-
-
