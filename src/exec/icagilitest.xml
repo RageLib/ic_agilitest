@@ -5,7 +5,6 @@
   <parameter name="ats.log.level" value="error"/>
   <test name="testMain" preserve-order="true">
     <classes>
-      <class name="MyFirstScript"/>
       <class name="sample.Main"/>
     </classes>
   </test>
