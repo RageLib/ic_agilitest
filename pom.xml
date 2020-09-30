@@ -67,6 +67,7 @@
           </property>
           <suiteXmlFiles>
             <suiteXmlFile>src/exec/icagilitest.xml</suiteXmlFile>
+            <suiteXmlFile>src/exec/suite.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
