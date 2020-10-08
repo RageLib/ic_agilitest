@@ -6,11 +6,10 @@ description -> Very simple ATS script
 
 [ats-variables]
 
-var -> date -> date [4m]
 
 [ats-actions]
 
-channel-start -> newChannel -> chrome
+channel-start -> newChannel -> $env(browser)
 //goto-url -> www.google.com
 //keyboard -> agilitest$key(ENTER) -> INPUT [name = q]
 //click -> CITE [text = www.agilitest.com] -> A [href = https://www.agilitest.com/]

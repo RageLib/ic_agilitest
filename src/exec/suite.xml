@@ -4,9 +4,7 @@
   <parameter name="visual.report" value="1"/>
   <parameter name="ats.log.level" value="error"/>
   <test name="testMain" preserve-order="true">
-    <parameter name="param03" value="test3"/>
-    <parameter name="param02" value="test2"/>
-    <parameter name="param01" value="test1"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="MyFirstScript"/>
     </classes>
