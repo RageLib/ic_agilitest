@@ -9,5 +9,9 @@
   <groups>
     <group>default</group>
   </groups>
-  <environment/>
+  <environment>
+    <property>param01</property>
+    <property>param02</property>
+    <property>param03</property>
+  </environment>
 </atsProject>
