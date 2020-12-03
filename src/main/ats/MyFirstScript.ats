@@ -9,7 +9,7 @@ description -> Very simple ATS script
 
 [ats-actions]
 
-channel-start -> newChannel -> $env(browser)
+channel-start -> newChannel -> chrome
 //goto-url -> www.google.com
 //keyboard -> agilitest$key(ENTER) -> INPUT [name = q]
 //click -> CITE [text = www.agilitest.com] -> A [href = https://www.agilitest.com/]
