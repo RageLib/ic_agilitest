@@ -11,6 +11,6 @@ description -> Very simple ATS script
 
 channel-start -> newChannel -> chrome
 goto-url -> www.google.com
-//keyboard -> agilitest$key(ENTER) -> INPUT [name = q]
+keyboard -> agilitest$key(ENTER) -> INPUT [name = q]
 //click -> CITE [text = www.agilitest.com] -> A [href = https://www.agilitest.com/]
 channel-close -> newChannel
