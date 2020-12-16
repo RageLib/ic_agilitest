@@ -10,7 +10,7 @@ description -> Very simple ATS script
 [ats-actions]
 
 channel-start -> newChannel -> chrome
-//goto-url -> www.google.com
+//click -> BUTTON [text = Try it] -> IFRAME [name = iframeResult]
 //keyboard -> agilitest$key(ENTER) -> INPUT [name = q]
 //click -> CITE [text = www.agilitest.com] -> A [href = https://www.agilitest.com/]
 channel-close -> newChannel

@@ -7,3 +7,6 @@ created -> 2020-09-18 at 17:54:04
 
 
 [ats-actions]
+
+channel-start -> newChannel -> chrome
+channel-close -> newChannel
